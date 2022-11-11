@@ -11,42 +11,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Handlee&display=swap"
         rel="stylesheet">
+    <!--Link para animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">        
     <link rel="stylesheet" href="../css/styles.css">
     <title>E-Shop</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <a href="../index.html" class="logo">
-                <img src="../img/logo11.jpg" alt="Logo Libros Libres">
-            </a>
-            <h1 class="marca">LIBROS LIBRES</h1>
-            <nav>
-                <ul class="lista-nav">
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="e-shop.html">E-Shop</a>
-                    </li>
-                    <li>
-                        <a href="clublectores.html">Club Libre</a>
-                    </li>
-                    <li>
-                        <a href="entrevistas.html">Entrevistas</a>
-                    </li>
-                    <li>
-                        <a href="contactanos.html">Contactanos</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <section>
+            <div class="logo">
+                <a href="../index.html" class="logo">
+                    <img src="../img/logo11.jpg" alt="Logo Libros Libres">
+                </a>
+                <h1 class="marca">LIBROS LIBRES</h1>
+            </div>
+        </section>
+        <nav>
+            <ul class="lista-nav">
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="e-shop.html">E-Shop</a>
+                </li>
+                <li>
+                    <a href="clublectores.html">Club Libre</a>
+                </li>
+                <li>
+                    <a href="entrevistas.html">Entrevistas</a>
+                </li>
+                <li>
+                    <a href="contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="productos">
-            <h2>¿Qué vas a leer hoy?</h2>
-                <p class="p-shop">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam molestias similique aspernatur facilis ipsa autem suscipit quam doloribus culpa voluptatem.</p>
+            <h2 class="animate__animated animate__wobble">¿Qué vas a leer hoy?</h2>
+            <p class="p-shop">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam molestias similique aspernatur facilis ipsa autem suscipit quam doloribus culpa voluptatem.</p>
             <div class="contenedor">
                 <div>
                     <img src="../img/foto1cus.png" alt="Cuento de hadas, Stephen King">
@@ -131,11 +135,17 @@
                     </a>
                 </div>
             </div>
-         </section>
+        </section>
     </main>
 
     <footer>
         <p>Sitio desarrollado durante el curso de Desarrollo Web de CoderHouse, por AMM.</p>
     </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+   new WOW().init();
+</script>
+
 </body>
 </html>
