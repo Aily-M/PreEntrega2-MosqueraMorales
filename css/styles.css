@@ -369,6 +369,11 @@ div {
     gap: 2rem; /*espacio entre botones*/
 }
 
+.prod-lectores .cont-lectores img {
+    width: 5rem;
+    height: 5.5rem;
+}
+
 
 
 
