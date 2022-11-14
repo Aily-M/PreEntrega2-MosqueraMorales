@@ -1,4 +1,62 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+
+/* HEADER Y NAV */
+.contenedor-grid-index {
+    width: 94%;
+    margin: 0 auto;
+    font-family: 'Handlee', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 190px 100px auto 50px;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main aside"
+    "footer footer footer";
+}
+
+.encabezado {
+    background-color: #540b0e;
+    grid-area: header;
+    display: flex;
+    font-size: 3rem;
+}
+
+.h1-encabezado {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Fredericka the Great', cursive;
+    color: #fff3b0;
+    font-weight: lighter;
+}
+
+.encabezado img:hover {
+    transform: scale(1.2);
+}
+
+
+.menu {
+    background-color: burlywood;
+    grid-area: nav;
+}
+
+
+
+/* INDEX */
+.contenido-index {
+    background-color: #92ba92;
+    grid-area: main;
+}
+
+.publicidad-index {
+    background-color: #525e75;
+    grid-area: aside;
+}
+
+.pie-index {
+    background-color: #78939a;
+    grid-area: footer;
 }
