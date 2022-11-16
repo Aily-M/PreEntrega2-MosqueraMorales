@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="../css/styles.css">
     <title>LIBROS LIBRES Club</title>
 </head>
-<body>
+<body class="contenedor-grid-club">
     <header class="encabezado">
-        <a href="../index.html">
+        <!-- <a href="../index.html"> -->
             <img src="../img/logo11.jpg" alt="Logo Libros Libres">
         </a>
-        <h1 class="marca">LIBROS LIBRES</h1>
+        <h1 class="h1-encabezado">LIBROS LIBRES</h1>
     </header>
     <nav class="menu">
         <ul>
@@ -28,88 +28,96 @@
             <li><a href="contactanos.html">Contactanos</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="contenido-club">
         <section>
-            <h2>¿Qué es el CLUB LIBRE?</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic architecto exercitationem, id placeat fugit neque dicta. Amet minima voluptate sed hic laborum ex nam harum. Possimus nihil beatae impedit, ab amet porro voluptate corporis dolor consequatur odio! Odit labore in eos incidunt quidem! Ipsam, error iste, repellat quaerat commodi cum ratione ipsa, necessitatibus mollitia nostrum aut dolorem iure voluptas tenetur.</p>
-        </section>
-        <section>
-            <h2>Beneficios de ser parte del Club</h2>
-            <ul>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Conocé las opiniones de nuestros lectores adheridos</h2>
-            <div>
-                <img src="../img/club2.jpg" alt="Lector 1">
-                <h3>Jorge Cluni</h3>
-                <p>Me encanta el club porque cuando estoy un poco corto a fin de mes, uso los puntos que fui acumulando y no me quedo sin comprar mis libros preferidos! Qué más?</p>
+            <div class="club-libre">
+                <h2>¿Qué es el CLUB LIBRE?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, nostrum sapiente tenetur a sit unde porro voluptates voluptatem! Rerum laudantium eligendi, placeat deserunt cupiditate officiis pariatur alias nobis nulla illum libero quisquam neque a distinctio quod sit labore quos delectus quibusdam numquam eius. Distinctio odio provident nobis unde, maiores ullam laborum ipsa corporis inventore cupiditate reiciendis minus fuga accusantium, blanditiis incidunt odit sint. Molestias, a ratione!</p>
             </div>
-            <div>
-                <img src="../img/club3.jpg" alt="Lector 2">
-                <h3>Miguel Yacson</h3>
-                <p>Ser parte del club es lo más, uso los beneficios para cada nuevo lanzamiento de algun thriller. Soy fan!</p>
-            </div>
-            <div>
-                <img src="../img/club4.jpg" alt="Lector 3">
-                <h3>Maria Strip</h3>
-                <p>Simplemente, el club es lo mejor de lo mejor! Enseño a mis gemelas el habito de la lectura y espero que en un futuro ellas tambien sean parte del club.</p>
-            </div>
-            <div>
-                <img src="../img/club5.jpg" alt="Lector 4">
-                <h3>Güitni Jiuston</h3>
-                <p>Gracias por tanto Libros Libres! Siempre los amare!!!</p>
-            </div>
-            <div>
-                <img src="../img/club6.jpeg" alt="Lector 5">
-                <h3>Fredy Mercurio</h3>
-                <p>Somos los campeones!! Ustedes por todo lo que crearon y yo por gozar de tantos beneficios!</p>
+            <div class="beneficios">
+                <h2>Beneficios de ser parte del Club</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                </ul>
             </div>
         </section>
         <section>
-            <h2>Entonces... ¿te suscribis?</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laboriosam dolorem accusantium vero aliquid atque, vitae harum minima quibusdam id officiis laborum optio illum libero provident eligendi in soluta minus rem ratione a. Ad aspernatur vel nihil architecto eum reiciendis?</p>
-        </section>
-        <section>
-            <h3>-- Completa los campos solicitados, y empeza a disfrutar excelentes beneficios --</h3>
             <fieldset>
-                <form>
+                <h2 class="h2-opiniones">Conocé las opiniones de nuestros lectores adheridos</h2>
+                <div class="contenedor-opiniones">
                     <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" id="apellido" required>
+                        <img src="../img/club2.jpg" alt="Lector 1">
+                        <h3>Jorge Cluni</h3>
+                        <p>Me encanta el club porque cuando estoy un poco corto a fin de mes, uso los puntos que fui acumulando y no me quedo sin comprar mis libros preferidos! Qué más?</p>
                     </div>
                     <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" id="nombre" required>
+                        <img src="../img/club3.jpg" alt="Lector 2">
+                        <h3>Miguel Yacson</h3>
+                        <p>Ser parte del club es lo más, uso los beneficios para cada nuevo lanzamiento de algun thriller. Soy fan!</p>
                     </div>
                     <div>
-                        <label for="dni">DNI</label>
-                        <input type="text" id="dni" required>
+                        <img src="../img/club4.jpg" alt="Lector 3">
+                        <h3>Maria Strip</h3>
+                        <p>Simplemente, el club es lo mejor de lo mejor! Enseño a mis gemelas el habito de la lectura y espero que en un futuro ellas tambien sean parte del club.</p>
                     </div>
+                    <!-- <div class="contenedor-opiniones">
+                        <img src="../img/club5.jpg" alt="Lector 4">
+                        <h3>Güitni Jiuston</h3>
+                        <p>Gracias por tanto Libros Libres! Siempre los amare!!!</p>
+                    </div> -->
                     <div>
-                        <label for="nacimiento">Fecha de nacimiento</label>
-                        <input type="date" id="nacimiento" required>
+                        <img src="../img/club6.jpeg" alt="Lector 5">
+                        <h3>Fredy Mercurio</h3>
+                        <p>Somos los campeones!! Ustedes por todo lo que crearon y yo por gozar de tantos beneficios!</p>
                     </div>
-                    <div>
-                        <label for="email">Correo electrónico</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar campos">
-                    </div>
-                </form>
+                </div>
             </fieldset>
         </section>
+
+            <div class="suscripcion">
+                <h2>Entonces... ¿te suscribis?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laboriosam dolorem accusantium vero aliquid atque, vitae harum minima quibusdam id officiis laborum optio illum libero provident eligendi in soluta minus rem ratione a. Ad aspernatur vel nihil architecto eum reiciendis?</p>
+            </div>
+            <div class="formulario">
+                <h3>↓↓ Completa los campos solicitados, y empeza a disfrutar excelentes beneficios ↓↓</h3>
+                <fieldset>
+                    <form>
+                        <div>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" required>
+                        </div>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" required>
+                        </div>
+                        <div>
+                            <label for="dni">DNI</label>
+                            <input type="text" id="dni" required>
+                        </div>
+                        <div>
+                            <label for="nacimiento">Fecha de nacimiento</label>
+                            <input type="date" id="nacimiento" required>
+                        </div>
+                        <div>
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Borrar campos">
+                        </div>
+                    </form>
+                </fieldset>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>Sitio desarrollado durante el curso de Desarrollo Web de CoderHouse, por AMM.</p>
+    <footer class="pie">
+        <p>~ Sitio desarrollado durante el curso de Desarrollo Web de CoderHouse, por AMM ~</p>
     </footer>
 </body>
 </html>
