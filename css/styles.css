@@ -322,59 +322,195 @@ body {
 }
 
 .h2-opiniones {
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: #fff3b0;
     text-align: center;
 }
 
-.contenedor-opiniones {
+.contenedor-opiniones div {
     display: flex;
-    
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-
-
-.contenedor-opiniones img {
+.contenedor-opiniones div img {
     width: 5rem;
     height: 5rem;
+    margin-top: 3rem;
 }
 
-fieldset {
+
+.fieldset-uno {
     border-color: #fff3b0;
     margin-top: 10rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
-
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #fcf4c9;
+    padding: 0rem 1rem 1rem 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .suscripcion h2 {
     font-size: 2rem;
     margin: 9rem 0rem 1rem 3rem;
     text-transform: uppercase;
 }
+
 .suscripcion p {
     font-size: 1.4rem;
     margin: 0.5rem 1.2rem 2rem 1.2rem;
     text-align: justify;
 }
 
-.formulario h3 {
+.h3-info {
     font-size: 1.5rem;
-    margin: 3rem 3rem 2rem 3rem;
+    background-color: #fff3b0;
     text-align: center;
+    margin: 3rem 4rem 1rem 4rem;
+}
+
+.fieldset-dos {
+    margin: 2rem 20rem 10rem 20rem;
+    color: #9e2a2b;
+}
+
+.clase-contacto {
+    margin: 1rem 4rem 1.5rem 4rem;
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.clase-contacto div {
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+/* ENTREVISTAS */
+.contenedor-grid-entrevistas {
+    width: 94%;
+    margin: 0 auto;
+    font-family: 'Handlee', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 50px auto 50px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main main"
+    "footer footer";
+}
+
+.contenido-entrevistas {
+    background-color: #92ba92;
+    grid-area: main;
+}
+
+.entrevistas h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.entrevistas p {
+    font-size: 1.4rem;
+    margin: 0.5rem 1.2rem 2rem 1.2rem;
+    text-align: justify;
+}
+
+.entrevistas h4 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 7rem;
+}
+
+
+
+
+
+/* CONTACTANOS */
+.contenedor-grid-contactanos {
+    width: 94%;
+    margin: 0 auto;
+    font-family: 'Handlee', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 50px auto 50px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main main"
+    "footer footer";
+}
+
+.contenido-contactanos {
+    background-color: #92ba92;
+    grid-area: main;
+}
+
+.formulario h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.formulario p {
+    font-size: 1.4rem;
+    margin: 0.5rem 1.2rem 2rem 1.2rem;
+    text-align: justify;
+}
+
+.fieldset-tres {
+    margin: 3rem 20rem 10rem 20rem;
+    color: #9e2a2b;
+}
+
+legend {
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #9e2a2b;
+}
+
+.clase-contacto {
+    margin: 1.5rem 4rem 2rem 4rem;
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.clase-contacto div {
+    margin-bottom: 2rem;
+}
+
+.visitanos h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.visitanos p {
+    font-size: 1.4rem;
+    margin: 0.5rem 1.2rem 2rem 1.2rem;
+    text-align: justify;
+}
+
+.mapa {
+    margin: 1.5rem 20rem 7rem 20rem;
 }

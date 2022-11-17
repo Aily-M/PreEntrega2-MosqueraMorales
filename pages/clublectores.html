@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Handlee&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="../css/styles.css">
     <title>LIBROS LIBRES Club</title>
 </head>
@@ -47,11 +48,11 @@
             </div>
         </section>
         <section>
-            <fieldset>
+            <fieldset class="fieldset-uno">
                 <h2 class="h2-opiniones">Conocé las opiniones de nuestros lectores adheridos</h2>
                 <div class="contenedor-opiniones">
                     <div>
-                        <img src="../img/club2.jpg" alt="Lector 1">
+                        <img src="../img/club2.jpg" alt="Lector 1"> 
                         <h3>Jorge Cluni</h3>
                         <p>Me encanta el club porque cuando estoy un poco corto a fin de mes, uso los puntos que fui acumulando y no me quedo sin comprar mis libros preferidos! Qué más?</p>
                     </div>
@@ -65,28 +66,24 @@
                         <h3>Maria Strip</h3>
                         <p>Simplemente, el club es lo mejor de lo mejor! Enseño a mis gemelas el habito de la lectura y espero que en un futuro ellas tambien sean parte del club.</p>
                     </div>
-                    <!-- <div class="contenedor-opiniones">
-                        <img src="../img/club5.jpg" alt="Lector 4">
-                        <h3>Güitni Jiuston</h3>
-                        <p>Gracias por tanto Libros Libres! Siempre los amare!!!</p>
-                    </div> -->
                     <div>
                         <img src="../img/club6.jpeg" alt="Lector 5">
                         <h3>Fredy Mercurio</h3>
                         <p>Somos los campeones!! Ustedes por todo lo que crearon y yo por gozar de tantos beneficios!</p>
                     </div>
                 </div>
+
             </fieldset>
         </section>
-
+        <section>
             <div class="suscripcion">
                 <h2>Entonces... ¿te suscribis?</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae laboriosam dolorem accusantium vero aliquid atque, vitae harum minima quibusdam id officiis laborum optio illum libero provident eligendi in soluta minus rem ratione a. Ad aspernatur vel nihil architecto eum reiciendis?</p>
             </div>
-            <div class="formulario">
-                <h3>↓↓ Completa los campos solicitados, y empeza a disfrutar excelentes beneficios ↓↓</h3>
-                <fieldset>
-                    <form>
+            <div>
+                <h3 class="h3-info">↓↓ Completa los campos solicitados, y empeza a disfrutar excelentes beneficios ↓↓</h3>
+                <fieldset class="fieldset-dos">
+                    <form class="clase-contacto">
                         <div>
                             <label for="apellido">Apellido</label>
                             <input type="text" id="apellido" required>
@@ -119,5 +116,8 @@
     <footer class="pie">
         <p>~ Sitio desarrollado durante el curso de Desarrollo Web de CoderHouse, por AMM ~</p>
     </footer>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+
 </body>
 </html>
