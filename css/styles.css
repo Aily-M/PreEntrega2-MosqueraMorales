@@ -183,7 +183,26 @@ body {
     font-weight: bold;
 }
 
-
+@media screen and (max-width: 1050px) {
+    .contenedor-grid-index {
+        width: 100%;
+        margin: 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 150px 50px auto 350px 50px;
+        grid-template-areas: 
+        "header header"
+        "nav nav"
+        "main main"
+        "aside aside"
+        "footer footer";
+    }
+    .encabezado {
+        font-size: 2.5rem;
+    }
+    .publicidad-index {
+        flex-direction: row;
+    }
+}
 
 
 
@@ -271,6 +290,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 
 
 
