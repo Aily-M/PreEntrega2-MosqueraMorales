@@ -1,0 +1,75 @@
+/* CONTACTANOS */
+.contenedor-grid-contactanos {
+    width: 94%;
+    margin: 0 auto;
+    font-family: 'Handlee', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 50px auto 50px;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "main main"
+    "footer footer";
+}
+
+.contenido-contactanos {
+    background-color: #92ba92;
+    grid-area: main;
+}
+
+.formulario h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.formulario p {
+    font-size: 1.4rem;
+    margin: 0.5rem 1.2rem 2rem 1.2rem;
+    text-align: justify;
+}
+
+.fieldset-tres {
+    margin: 3rem 20rem 10rem 20rem;
+    color: #9e2a2b;
+}
+
+legend {
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #9e2a2b;
+}
+
+.clase-contacto {
+    margin: 1.5rem 4rem 2rem 4rem;
+    font-family: 'Handlee', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.clase-contacto div {
+    margin-bottom: 2rem;
+}
+
+.visitanos h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0.7rem;
+}
+
+.visitanos p {
+    font-size: 1.4rem;
+    margin: 0.5rem 1.2rem 2rem 1.2rem;
+    text-align: justify;
+}
+
+.mapa {
+    margin: 1.5rem 20rem 7rem 20rem;
+}

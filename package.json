@@ -1,0 +1,19 @@
+{
+  "name": "entregafinal-mosqueramorales",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aily-M/PreEntrega2-MosqueraMorales.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aily-M/PreEntrega2-MosqueraMorales/issues"
+  },
+  "homepage": "https://github.com/Aily-M/PreEntrega2-MosqueraMorales#readme",
+  "description": ""
+}
